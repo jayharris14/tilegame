@@ -1,0 +1,36 @@
+ .App {
+  text-align: center;
+  background-color: black;
+  height: 100vh;
+  overflow: hidden;
+}
+.Play{
+ background-color: black;
+ max-height: 100px;
+
+}
+
+.square{
+  background-color: white;
+}
+
+.green:hover{
+  background-color: greenyellow;
+  height: 40px;
+  width: 40px;
+}
+
+.green{
+  background-color: white;
+  height: 40px;
+  width: 40px;
+}
+
+.clear{
+  background-color: transparent;
+  height: 0;
+  width: 0;
+}
+
+
+
