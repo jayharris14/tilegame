@@ -1,8 +1,7 @@
 import './App.css';
 import { useLayoutEffect } from 'react';
 import { waitForElementToBeRemoved } from '@testing-library/react';
-import { buildTimeValue } from '@testing-library/user-event/dist/utils';
-import { Image } from '@aws-amplify/ui-react';
+import { buildTimeValue } from '@testing-library/user-event/dist/utils'
 
 var igreen;
 var winner=[];
