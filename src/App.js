@@ -98,7 +98,7 @@ var options=[];
 
   
 function YouWin(){
-  document.getElementById('iwinner').innerHTML='<img src="https://photos.fife.usercontent.google.com/pw/AP1GczPle3ycqJGWVHkgYRznu4wWjzPf_5-1IXmyLLtHUoQX-wDleKhS3tte=w797-h598-s-no?authuser=0" height="800px" width="800px" ></img>';
+  document.getElementById('iwinner').innerHTML='<img src="https://drive.google.com/file/d/1FgDMC8-MBJikpsq9KvP-u2Vj1nUjTd6T/view?usp=sharing" height="800px" width="800px" ></img>';
   setTimeout(() => {
     for (let i=101; i<111; i++){
       document.getElementById(i).style.top='-45px';
@@ -119,7 +119,7 @@ function YouWin(){
 }
 
 function GameOver(){
-    document.getElementById('gover').innerHTML='<img src="https://photos.fife.usercontent.google.com/pw/AP1GczO8l0-Cuayh-IFEL7EzYutfZtIhAx8PSuflOtbLInRTKuh8B3o18xWu=w1146-h598-s-no?authuser=0" height="800px" width="800px"></img>';  
+    document.getElementById('gover').innerHTML='<img src="https://drive.google.com/file/d/1rL3JTNdOhqjKPkC-9tNpmPA61TrWKsCu/view?usp=sharing"height="800px" width="800px"></img>';  
     setTimeout(() =>{
       for (let i=0; i<iangries.length; i++){
         document.getElementById(iangries[i]).innerHTML="";
@@ -187,13 +187,13 @@ function Start() {
       document.getElementById('cdown').innerHTML='';
     }, 9100);
       setTimeout(() => {
-        document.getElementById(initangries[0]).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+        document.getElementById(initangries[0]).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
-        document.getElementById(initangries[1]).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+        document.getElementById(initangries[1]).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
-        document.getElementById(5).innerHTML =  '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczOUcJUchBFzmxru_zeF1ymufBAMMHYQEoQIcTMAesQyZyDeljwrrg0r=w30-h30-s-no?authuser=0" height="35px" width="35px" id="yellow" style="position:absolute; right: 2.3px; top: 2px;"></img>'
+        document.getElementById(5).innerHTML =  '<img src="https://drive.google.com/file/d/1o4fvjxyxjql-lV7NIrAcjsyf6eTobHCM/view?usp=sharing" height="35px" width="35px" id="yellow" style="position:absolute; right: 2.3px; top: 2px;"></img>'
         start = 2;
         run='yes';
       }, 9100);
@@ -259,10 +259,12 @@ function Start() {
     
       angry1=angry1+200;
       angry2=angry2+200;
-        document.getElementById(angry1-200).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+        document.getElementById(angry1-200).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing
+" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
-        document.getElementById(angry2-200).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+        document.getElementById(angry2-200).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing
+" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
         let z=101;  
@@ -350,7 +352,8 @@ function Start() {
             angry = angry - (2 * 9);
             for (let i = 0; i < greens.length; i++) {
               if (greens[i] == (angry + 200)) {
-                document.getElementById(angry + 200).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+                document.getElementById(angry + 200).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing
+" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
                 angry = angry + 200;
@@ -367,7 +370,8 @@ function Start() {
               }
             }
             if (greened != 'yes') {
-              document.getElementById(angry).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+              document.getElementById(angry).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing
+" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
               iangry = angry;
@@ -387,7 +391,8 @@ function Start() {
             angry = angry + (2 * 9);
             for (let i = 0; i < greens.length; i++) {
               if (greens[i] == (angry + 200)) {
-                document.getElementById(angry + 200).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+                document.getElementById(angry + 200).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing
+" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
                 angry = angry + 200;
@@ -404,7 +409,8 @@ function Start() {
               }
             }
             if (greened != 'yes') {
-              document.getElementById(angry).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+              document.getElementById(angry).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing
+" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
               iangry = angry;
@@ -426,7 +432,8 @@ function Start() {
             angry = angry - (1 * 9);
             for (let i = 0; i < greens.length; i++) {
               if (greens[i] == (angry + 200)) {
-                document.getElementById(angry + 200).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+                document.getElementById(angry + 200).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing
+" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
                 angry = angry + 200;
@@ -443,7 +450,8 @@ function Start() {
               }
             }
             if (greened != 'yes') {
-              document.getElementById(angry).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+              document.getElementById(angry).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing
+" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
               iangry = angry;
@@ -463,7 +471,8 @@ function Start() {
             angry = angry + (1 * 9);
             for (let i = 0; i < greens.length; i++) {
               if (greens[i] == (angry + 200)) {
-                document.getElementById(angry + 200).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+                document.getElementById(angry + 200).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing
+" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
                 angry = angry + 200;
@@ -480,7 +489,8 @@ function Start() {
               }
             }
             if (greened != 'yes') {
-              document.getElementById(angry).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+              document.getElementById(angry).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing
+" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
               iangry = angry;
@@ -505,7 +515,8 @@ function Start() {
               angry = angry + 2;
               for (let i = 0; i < greens.length; i++) {
                 if (greens[i] == (angry + 200)) {
-                  document.getElementById(angry + 200).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+                  document.getElementById(angry + 200).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing
+" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
                   angry = angry + 200;
@@ -522,7 +533,8 @@ function Start() {
                 }
               }
               if (greened != 'yes') {
-                document.getElementById(angry).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+                document.getElementById(angry).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing
+" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
                 iangry = angry;
@@ -542,7 +554,8 @@ function Start() {
               angry = angry + 1;
               for (let i = 0; i < greens.length; i++) {
                 if (greens[i] == (angry + 200)) {
-                  document.getElementById(angry + 200).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+                  document.getElementById(angry + 200).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing
+" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
                   angry = angry + 200;
@@ -559,7 +572,8 @@ function Start() {
                 }
               }
               if (greened != 'yes') {
-                document.getElementById(angry).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+                document.getElementById(angry).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing
+" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
                 iangry = angry;
@@ -581,7 +595,8 @@ function Start() {
               angry = angry - 2;
               for (let i = 0; i < greens.length; i++) {
                 if (greens[i] == (angry + 200)) {
-                  document.getElementById(angry + 200).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+                  document.getElementById(angry + 200).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing
+" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
                   angry = angry + 200;
@@ -598,7 +613,8 @@ function Start() {
                 }
               }
               if (greened != 'yes') {
-                document.getElementById(angry).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+                document.getElementById(angry).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing
+" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
                 iangry = angry;
@@ -618,7 +634,8 @@ function Start() {
               angry = angry - 1;
               for (let i = 0; i < greens.length; i++) {
                 if (greens[i] == (angry + 200)) {
-                  document.getElementById(angry + 200).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+                  document.getElementById(angry + 200).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing
+" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
                   angry = angry + 200;
@@ -635,7 +652,8 @@ function Start() {
                 }
               }
               if (greened != 'yes') {
-                document.getElementById(angry).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+                document.getElementById(angry).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing
+" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
                 iangry = angry;
@@ -708,7 +726,8 @@ function Start() {
                   }
                   for (let i = 0; i < greens.length; i++) {
                     if (greens[i] == (angry + 200)) {
-                      document.getElementById(angry + 200).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+                      document.getElementById(angry + 200).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing
+" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
                       angry = angry + 200;
@@ -725,7 +744,8 @@ function Start() {
                     }
                   }
                   if (greened != 'yes') {
-                    document.getElementById(angry).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+                    document.getElementById(angry).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing
+" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
                     iangry = angry;
@@ -792,7 +812,8 @@ function Start() {
                   }
                   for (let i = 0; i < greens.length; i++) {
                     if (greens[i] == (angry + 200)) {
-                      document.getElementById(angry + 200).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+                      document.getElementById(angry + 200).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing
+" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
                       angry = angry + 200;
@@ -809,7 +830,8 @@ function Start() {
                     }
                   }
                   if (greened != 'yes') {
-                    document.getElementById(angry).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+                    document.getElementById(angry).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing
+" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
                     iangry = angry;
@@ -878,7 +900,8 @@ function Start() {
                   }
                   for (let i = 0; i < greens.length; i++) {
                     if (greens[i] == (angry + 200)) {
-                      document.getElementById(angry + 200).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+                      document.getElementById(angry + 200).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing
+" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
                       angry = angry + 200;
@@ -895,7 +918,8 @@ function Start() {
                     }
                   }
                   if (greened != 'yes') {
-                    document.getElementById(angry).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+                    document.getElementById(angry).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing
+" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
                     iangry = angry;
@@ -962,7 +986,8 @@ function Start() {
                   }
                   for (let i = 0; i < greens.length; i++) {
                     if (greens[i] == (angry + 200)) {
-                      document.getElementById(angry + 200).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+                      document.getElementById(angry + 200).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing
+" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
                       angry = angry + 200;
@@ -979,7 +1004,8 @@ function Start() {
                     }
                   }
                   if (greened != 'yes') {
-                    document.getElementById(angry).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+                    document.getElementById(angry).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing
+" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
                     iangry = angry;
@@ -1050,7 +1076,8 @@ function Start() {
                   }
                   for (let i = 0; i < greens.length; i++) {
                     if (greens[i] == (angry + 200)) {
-                      document.getElementById(angry + 200).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+                      document.getElementById(angry + 200).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing
+" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
                       angry = angry + 200;
@@ -1067,7 +1094,8 @@ function Start() {
                     }
                   }
                   if (greened != 'yes') {
-                    document.getElementById(angry).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+                    document.getElementById(angry).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing
+" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
                     iangry = angry;
@@ -1134,7 +1162,8 @@ function Start() {
                   }
                   for (let i = 0; i < greens.length; i++) {
                     if (greens[i] == (angry + 200)) {
-                      document.getElementById(angry + 200).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+                      document.getElementById(angry + 200).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing
+" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
                       angry = angry + 200;
@@ -1151,7 +1180,8 @@ function Start() {
                     }
                   }
                   if (greened != 'yes') {
-                    document.getElementById(angry).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+                    document.getElementById(angry).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing
+" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
                     iangry = angry;
@@ -1220,7 +1250,8 @@ function Start() {
                   }
                   for (let i = 0; i < greens.length; i++) {
                     if (greens[i] == (angry + 200)) {
-                      document.getElementById(angry + 200).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+                      document.getElementById(angry + 200).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing
+" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
                       angry = angry + 200;
@@ -1237,7 +1268,8 @@ function Start() {
                     }
                   }
                   if (greened != 'yes') {
-                    document.getElementById(angry).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+                    document.getElementById(angry).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing
+" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
                     iangry = angry;
@@ -1304,7 +1336,8 @@ function Start() {
                   }
                   for (let i = 0; i < greens.length; i++) {
                     if (greens[i] == (angry + 200)) {
-                      document.getElementById(angry + 200).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+                      document.getElementById(angry + 200).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing
+" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
                       angry = angry + 200;
@@ -1321,7 +1354,8 @@ function Start() {
                     }
                   }
                   if (greened != 'yes') {
-                    document.getElementById(angry).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+                    document.getElementById(angry).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing
+" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
                     iangry = angry;
@@ -1394,7 +1428,8 @@ function Start() {
                   }
                   for (let i = 0; i < greens.length; i++) {
                     if (greens[i] == (angry + 200)) {
-                      document.getElementById(angry + 200).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+                      document.getElementById(angry + 200).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing
+" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
                       angry = angry + 200;
@@ -1411,7 +1446,8 @@ function Start() {
                     }
                   }
                   if (greened != 'yes') {
-                    document.getElementById(angry).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+                    document.getElementById(angry).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing
+" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
                     iangry = angry;
@@ -1478,7 +1514,8 @@ function Start() {
                   }
                   for (let i = 0; i < greens.length; i++) {
                     if (greens[i] == (angry + 200)) {
-                      document.getElementById(angry + 200).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="30px" width="30px"></img>'
+                      document.getElementById(angry + 200).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing
+" height="30px" width="30px"></img>'
                       angry = angry + 200;
                       iangry = angry;
                       if (level==2 && j==0){
@@ -1493,7 +1530,8 @@ function Start() {
                     }
                   }
                   if (greened != 'yes') {
-                    document.getElementById(angry).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+                    document.getElementById(angry).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing
+" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
                     iangry = angry;
@@ -1562,7 +1600,8 @@ function Start() {
                   }
                   for (let i = 0; i < greens.length; i++) {
                     if (greens[i] == (angry + 200)) {
-                      document.getElementById(angry + 200).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+                      document.getElementById(angry + 200).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing
+" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
                       angry = angry + 200;
@@ -1579,7 +1618,8 @@ function Start() {
                     }
                   }
                   if (greened != 'yes') {
-                    document.getElementById(angry).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+                    document.getElementById(angry).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing
+" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
                     iangry = angry;
@@ -1646,7 +1686,8 @@ function Start() {
                   }
                   for (let i = 0; i < greens.length; i++) {
                     if (greens[i] == (angry + 200)) {
-                      document.getElementById(angry + 200).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+                      document.getElementById(angry + 200).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing
+" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
                       angry = angry + 200;
@@ -1663,7 +1704,8 @@ function Start() {
                     }
                   }
                   if (greened != 'yes') {
-                    document.getElementById(angry).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+                    document.getElementById(angry).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing
+" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
                     iangry = angry;
@@ -1734,7 +1776,8 @@ function Start() {
                   }
                   for (let i = 0; i < greens.length; i++) {
                     if (greens[i] == (angry + 200)) {
-                      document.getElementById(angry + 200).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+                      document.getElementById(angry + 200).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing
+" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
                       angry = angry + 200;
@@ -1751,7 +1794,8 @@ function Start() {
                     }
                   }
                   if (greened != 'yes') {
-                    document.getElementById(angry).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+                    document.getElementById(angry).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing
+" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
                     iangry = angry;
@@ -1818,7 +1862,8 @@ function Start() {
                   }
                   for (let i = 0; i < greens.length; i++) {
                     if (greens[i] == (angry + 200)) {
-                      document.getElementById(angry + 200).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+                      document.getElementById(angry + 200).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing
+" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
                       angry = angry + 200;
@@ -1835,7 +1880,8 @@ function Start() {
                     }
                   }
                   if (greened != 'yes') {
-                    document.getElementById(angry).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+                    document.getElementById(angry).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing
+" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
                     iangry = angry;
@@ -1904,7 +1950,8 @@ function Start() {
                   }
                   for (let i = 0; i < greens.length; i++) {
                     if (greens[i] == (angry + 200)) {
-                      document.getElementById(angry + 200).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+                      document.getElementById(angry + 200).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing
+" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
                       angry = angry + 200;
@@ -1921,7 +1968,8 @@ function Start() {
                     }
                   }
                   if (greened != 'yes') {
-                    document.getElementById(angry).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+                    document.getElementById(angry).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing
+" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
                     iangry = angry;
@@ -1988,7 +2036,8 @@ function Start() {
                   }
                   for (let i = 0; i < greens.length; i++) {
                     if (greens[i] == (angry + 200)) {
-                      document.getElementById(angry + 200).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+                      document.getElementById(angry + 200).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing
+" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
                       angry = angry + 200;
@@ -2005,7 +2054,8 @@ function Start() {
                     }
                   }
                   if (greened != 'yes') {
-                    document.getElementById(angry).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+                    document.getElementById(angry).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing
+" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
                     iangry = angry;
@@ -2086,7 +2136,7 @@ function BlueMove(slot){
             }
             for (let i = 0; i < greens.length; i++) {
               if (greens[i] == (angry + 200)) {
-              //  document.getElementById(angry + 200).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+              //  document.getElementById(angry + 200).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
                 angry = angry + 200;
@@ -2102,7 +2152,7 @@ function BlueMove(slot){
               }
             }
             if (greened != 'yes') {
-              //document.getElementById(angry).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+              //document.getElementById(angry).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
               iangry = angry;
@@ -2141,7 +2191,7 @@ function BlueMove(slot){
             }
             for (let i = 0; i < greens.length; i++) {
               if (greens[i] == (angry + 200)) {
-                //document.getElementById(angry + 200).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+                //document.getElementById(angry + 200).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
                 angry = angry + 200;
@@ -2157,7 +2207,7 @@ function BlueMove(slot){
               }
             }
             if (greened != 'yes') {
-              //document.getElementById(angry).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+              //document.getElementById(angry).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
               iangry = angry;
@@ -2270,7 +2320,7 @@ for (let piece=0; piece<ipieces; piece++){
           }
            for (let i = 0; i < greens.length; i++) {
             if (greens[i] == (angry + 200)) {
-              //document.getElementById(angry + 200).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+              //document.getElementById(angry + 200).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
               angry = angry + 200;
@@ -2286,7 +2336,7 @@ for (let piece=0; piece<ipieces; piece++){
             }
           }
           if (greened != 'yes') {
-            //document.getElementById(angry).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+            //document.getElementById(angry).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
             iangry=angry;
@@ -2314,7 +2364,7 @@ for (let piece=0; piece<ipieces; piece++){
           }
           for (let i = 0; i < greens  .length; i++) {
             if (greens[i] == (angry + 200)) {
-              //document.getElementById(angry + 200).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+              //document.getElementById(angry + 200).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
               angry = angry + 200;
@@ -2330,7 +2380,7 @@ for (let piece=0; piece<ipieces; piece++){
             }
           }
           if (greened != 'yes') {
-            //document.getElementById(angry).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+            //document.getElementById(angry).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
             iangry = angry;
@@ -2359,7 +2409,7 @@ for (let piece=0; piece<ipieces; piece++){
           }
           for (let i = 0; i < greens.length; i++) {
             if (greens[i] == (angry + 200)) {
-              //document.getElementById(angry + 200).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+              //document.getElementById(angry + 200).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
               angry = angry + 200;
@@ -2375,7 +2425,7 @@ for (let piece=0; piece<ipieces; piece++){
             }
           }
           if (greened != 'yes') {
-            //document.getElementById(angry).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+            //document.getElementById(angry).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
             iangry = angry;
@@ -2395,7 +2445,7 @@ for (let piece=0; piece<ipieces; piece++){
           possibleangries.push(angry-9);
           for (let i = 0; i < greens.length; i++) {
             if (greens[i] == (angry + 200)) {
-              //document.getElementById(angry + 200).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+              //document.getElementById(angry + 200).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
               angry = angry + 200;
@@ -2411,7 +2461,7 @@ for (let piece=0; piece<ipieces; piece++){
             }
           }
           if (greened != 'yes') {
-            //document.getElementById(angry).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+            //document.getElementById(angry).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
             iangry = angry;
@@ -2453,7 +2503,7 @@ for (let piece=0; piece<ipieces; piece++){
             }
             for (let i = 0; i < greens.length; i++) {
               if (greens[i] == (angry + 200)) {
-              //  document.getElementById(angry + 200).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+              //  document.getElementById(angry + 200).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
                 angry = angry + 200;
@@ -2469,7 +2519,7 @@ for (let piece=0; piece<ipieces; piece++){
               }
             }
             if (greened != 'yes') {
-              //document.getElementById(angry).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+              //document.getElementById(angry).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
               iangry = angry;
@@ -2498,7 +2548,7 @@ for (let piece=0; piece<ipieces; piece++){
             }
             for (let i = 0; i < greens.length; i++) {
               if (greens[i] == (angry + 200)) {
-                //document.getElementById(angry + 200).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+                //document.getElementById(angry + 200).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
                 angry = angry + 200;
@@ -2514,7 +2564,7 @@ for (let piece=0; piece<ipieces; piece++){
               }
             }
             if (greened != 'yes') {
-              //document.getElementById(angry).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+              //document.getElementById(angry).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
               iangry = angry;
@@ -2554,7 +2604,7 @@ for (let piece=0; piece<ipieces; piece++){
             }
             for (let i = 0; i < greens.length; i++) {
               if (greens[i] == (angry + 200)) {
-                //document.getElementById(angry + 200).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+                //document.getElementById(angry + 200).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing" height "47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
                 angry = angry + 200;
@@ -2570,7 +2620,7 @@ for (let piece=0; piece<ipieces; piece++){
               }
             }
             if (greened != 'yes') {
-              //document.getElementById(angry).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+              //document.getElementById(angry).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
               iangry = angry;
@@ -2599,7 +2649,7 @@ for (let piece=0; piece<ipieces; piece++){
           }
             for (let i = 0; i < greens.length; i++) {
               if (greens[i] == (angry + 200)) {
-                //document.getElementById(angry + 200).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+                //document.getElementById(angry + 200).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
                 angry = angry + 200;
@@ -2615,7 +2665,7 @@ for (let piece=0; piece<ipieces; piece++){
               }
             }
             if (greened != 'yes') {
-              //document.getElementById(angry).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+              //document.getElementById(angry).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
               iangry = angry;
@@ -2702,7 +2752,7 @@ for (let piece=0; piece<ipieces; piece++){
                 }
                 for (let i = 0; i < greens.length; i++) {
                   if (greens[i] == (angry + 200)) {
-                //    document.getElementById(angry + 200).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+                //    document.getElementById(angry + 200).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
                     angry = angry + 200;
@@ -2718,7 +2768,7 @@ for (let piece=0; piece<ipieces; piece++){
                   }
                 }
                 if (greened != 'yes') {
-                  //document.getElementById(angry).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+                  //document.getElementById(angry).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
                   iangry = angry;
@@ -2780,7 +2830,7 @@ for (let piece=0; piece<ipieces; piece++){
                 }
                 for (let i = 0; i < greens.length; i++) {
                   if (greens[i] == (angry + 200)) {
-                    //document.getElementById(angry + 200).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+                    //document.getElementById(angry + 200).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
                     angry = angry + 200;
@@ -2796,7 +2846,7 @@ for (let piece=0; piece<ipieces; piece++){
                   }
                 }
                 if (greened != 'yes') {
-                  //document.getElementById(angry).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+                  //document.getElementById(angry).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
                   iangry = angry;
@@ -2872,7 +2922,7 @@ for (let piece=0; piece<ipieces; piece++){
                 }
                 for (let i = 0; i < greens.length; i++) {
                   if (greens[i] == (angry + 200)) {
-                    //document.getElementById(angry + 200).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+                    //document.getElementById(angry + 200).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
                     angry = angry + 200;
@@ -2888,7 +2938,7 @@ for (let piece=0; piece<ipieces; piece++){
                   }
                 }
                 if (greened != 'yes') {
-                  //document.getElementById(angry).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+                  //document.getElementById(angry).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
                   iangry = angry;
@@ -2965,7 +3015,7 @@ for (let piece=0; piece<ipieces; piece++){
                 }
                 for (let i = 0; i < greens.length; i++) {
                   if (greens[i] == (angry + 200)) {
-                    //document.getElementById(angry + 200).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+                    //document.getElementById(angry + 200).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
                     angry = angry + 200;
@@ -2981,7 +3031,7 @@ for (let piece=0; piece<ipieces; piece++){
                   }
                 }
                 if (greened != 'yes') {
-                  //document.getElementById(angry).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+                  //document.getElementById(angry).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
                   iangry = angry;
@@ -3069,7 +3119,7 @@ for (let piece=0; piece<ipieces; piece++){
                 console.log(possibleangries);
                 for (let i = 0; i < greens.length; i++) {
                   if (greens[i] == (angry + 200)) {
-                    //document.getElementById(angry + 200).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+                    //document.getElementById(angry + 200).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
                     angry = angry + 200;
@@ -3086,7 +3136,7 @@ for (let piece=0; piece<ipieces; piece++){
                 } 
                 console.log(possibleangries);
                 if (greened != 'yes') {
-                  //document.getElementById(angry).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+                  //document.getElementById(angry).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
                   iangry = angry;
@@ -3150,7 +3200,7 @@ for (let piece=0; piece<ipieces; piece++){
                 }
                 for (let i = 0; i < greens.length; i++) {
                   if (greens[i] == (angry + 200)) {
-                    //document.getElementById(angry + 200).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+                    //document.getElementById(angry + 200).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
                     angry = angry + 200;
@@ -3166,7 +3216,7 @@ for (let piece=0; piece<ipieces; piece++){
                   }
                 }
                 if (greened != 'yes') {
-                  //document.getElementById(angry).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+                  //document.getElementById(angry).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
                   iangry = angry;
@@ -3244,7 +3294,7 @@ for (let piece=0; piece<ipieces; piece++){
                 }
                 for (let i = 0; i < greens.length; i++) {
                   if (greens[i] == (angry + 200)) {
-                    //document.getElementById(angry + 200).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+                    //document.getElementById(angry + 200).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
                     angry = angry + 200;
@@ -3260,7 +3310,7 @@ for (let piece=0; piece<ipieces; piece++){
                   }
                 }
                 if (greened != 'yes') {
-                  //document.getElementById(angry).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+                  //document.getElementById(angry).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
                   iangry = angry;
@@ -3337,7 +3387,7 @@ for (let piece=0; piece<ipieces; piece++){
                 }
                 for (let i = 0; i < greens.length; i++) {
                   if (greens[i] == (angry + 200)) {
-                    //document.getElementById(angry + 200).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+                    //document.getElementById(angry + 200).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
                     angry = angry + 200;
@@ -3353,7 +3403,7 @@ for (let piece=0; piece<ipieces; piece++){
                   }
                 }
                 if (greened != 'yes') {
-                  //document.getElementById(angry).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+                  //document.getElementById(angry).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
                   iangry = angry;
@@ -3426,7 +3476,7 @@ for (let piece=0; piece<ipieces; piece++){
                 }
                 for (let i = 0; i < greens.length; i++) {
                   if (greens[i] == (angry + 200)) {
-                    //document.getElementById(angry + 200).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+                    //document.getElementById(angry + 200).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
                     angry = angry + 200;
@@ -3442,7 +3492,7 @@ for (let piece=0; piece<ipieces; piece++){
                   }
                 }
                 if (greened != 'yes') {
-                  //document.getElementById(angry).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+                  //document.getElementById(angry).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
                   iangry = angry;
@@ -3499,7 +3549,7 @@ for (let piece=0; piece<ipieces; piece++){
                 }
                 for (let i = 0; i < greens.length; i++) {
                   if (greens[i] == (angry + 200)) {
-                    //document.getElementById(angry + 200).innerHTML = '<img src=https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="30px" width="30px"></img>'
+                    //document.getElementById(angry + 200).innerHTML = '<img src=https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing" height="30px" width="30px"></img>'
                     angry = angry + 200;
                     iangry = angry;
                     greened = 'yes';
@@ -3513,7 +3563,7 @@ for (let piece=0; piece<ipieces; piece++){
                   }
                 }
                 if (greened != 'yes') {
-                  //document.getElementById(angry).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+                  //document.getElementById(angry).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
                   iangry = angry;
@@ -3563,7 +3613,7 @@ for (let piece=0; piece<ipieces; piece++){
                 }
                 for (let i = 0; i < greens.length; i++) {
                   if (greens[i] == (angry + 200)) {
-                    //document.getElementById(angry + 200).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+                    //document.getElementById(angry + 200).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
                    angry = angry + 200;
@@ -3579,7 +3629,7 @@ for (let piece=0; piece<ipieces; piece++){
                   }
                 }
                 if (greened != 'yes') {
-                  //document.getElementById(angry).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+                  //document.getElementById(angry).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
                   iangry = angry;
@@ -3627,7 +3677,7 @@ for (let piece=0; piece<ipieces; piece++){
                 }
                 for (let i = 0; i < greens.length; i++) {
                   if (greens[i] == (angry + 200)) {
-                    //document.getElementById(angry + 200).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+                    //document.getElementById(angry + 200).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
                     angry = angry + 200;
@@ -3643,7 +3693,7 @@ for (let piece=0; piece<ipieces; piece++){
                   }
                 }
                 if (greened != 'yes') {
-                  //document.getElementById(angry).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+                  //document.getElementById(angry).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
                   iangry = angry;
@@ -3698,7 +3748,7 @@ for (let piece=0; piece<ipieces; piece++){
                 }
                 for (let i = 0; i < greens.length; i++) {
                   if (greens[i] == (angry + 200)) {
-                    //document.getElementById(angry + 200).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+                    //document.getElementById(angry + 200).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
                     angry = angry + 200;
@@ -3714,7 +3764,7 @@ for (let piece=0; piece<ipieces; piece++){
                   }
                 }
                 if (greened != 'yes') {
-                  //document.getElementById(angry).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+                  //document.getElementById(angry).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
                   iangry = angry;
@@ -3773,7 +3823,7 @@ for (let piece=0; piece<ipieces; piece++){
                 }
                 for (let i = 0; i < greens.length; i++) {
                   if (greens[i] == (angry + 200)) {
-                    //document.getElementById(angry + 200).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+                    //document.getElementById(angry + 200).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
                     angry = angry + 200;
@@ -3789,7 +3839,7 @@ for (let piece=0; piece<ipieces; piece++){
                   }
                 }
                 if (greened != 'yes') {
-                  //document.getElementById(angry).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+                  //document.getElementById(angry).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
                   iangry = angry;
@@ -3839,7 +3889,7 @@ for (let piece=0; piece<ipieces; piece++){
                 }
                 for (let i = 0; i < greens.length; i++) {
                   if (greens[i] == (angry + 200)) {
-                    //document.getElementById(angry + 200).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+                    //document.getElementById(angry + 200).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
                     angry = angry + 200;
@@ -3855,7 +3905,7 @@ for (let piece=0; piece<ipieces; piece++){
                   }
                 }
                 if (greened != 'yes') {
-                  //doc ument.getElementById(angry).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+                  //doc ument.getElementById(angry).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
                   iangry = angry;
@@ -3904,7 +3954,7 @@ for (let piece=0; piece<ipieces; piece++){
                 }
                 for (let i = 0; i < greens.length; i++) {
                   if (greens[i] == (angry + 200)) {
-                    //document.getElementById(angry + 200).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+                    //document.getElementById(angry + 200).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
                     angry = angry + 200;
@@ -3920,7 +3970,7 @@ for (let piece=0; piece<ipieces; piece++){
                   }
                 }
                 if (greened != 'yes') {
-                  //document.getElementById(angry).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+                  //document.getElementById(angry).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
                   iangry = angry;
@@ -3967,11 +4017,11 @@ setTimeout(() =>{
     check='null';
     if (i==0){
       try{
-      document.getElementById(iangries[i]).innerHTML='<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+      document.getElementById(iangries[i]).innerHTML='<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
       }
       catch(TypeError){
         if (iangries[i]>200){
-          document.getElementById(iangries[i]-200).innerHTML='<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+          document.getElementById(iangries[i]-200).innerHTML='<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
           iangries[i]=iangries[i]-200;
         }
       }
@@ -3989,19 +4039,19 @@ setTimeout(() =>{
         console.log('here1');
    try{
     if (level==2 && i==2){
-      document.getElementById(iangries[i]).innerHTML='<img src="https://photos.fife.usercontent.google.com/pw/AP1GczMUF8dhyVCWKnxDWLgMnegZr6pXR5AXr_p_GkiTDTd3OzOhL6MPylwl=w797-h598-s-no?authuser=0" height="45px" width="60px" style="position:absolute; right: -9px; top: -3px;"></img>'
+      document.getElementById(iangries[i]).innerHTML='<img src="https://drive.google.com/file/d/1b9nhQMXqFpuIN9-HH1rXko4Tp1J7n7xH/view?usp=sharing" height="45px" width="60px" style="position:absolute; right: -9px; top: -3px;"></img>'
     }
-    else{document.getElementById(iangries[i]).innerHTML='<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+    else{document.getElementById(iangries[i]).innerHTML='<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
     }
   }
     catch(TypeError){
       if (iangries[i]>200){
          if (level==2 && i==2){
-      document.getElementById(iangries[i]-200).innerHTML='<img src="https://photos.fife.usercontent.google.com/pw/AP1GczMUF8dhyVCWKnxDWLgMnegZr6pXR5AXr_p_GkiTDTd3OzOhL6MPylwl=w797-h598-s-no?authuser=0" height="45px" width="60px" style="position:absolute; right: -9px; top: -3px;"></img>'
+      document.getElementById(iangries[i]-200).innerHTML='<img src="https://drive.google.com/file/d/1b9nhQMXqFpuIN9-HH1rXko4Tp1J7n7xH/view?usp=sharing" height="45px" width="60px" style="position:absolute; right: -9px; top: -3px;"></img>'
      iangries[i]=iangries[i]-200;
     }
     else{
-        document.getElementById(iangries[i]-200).innerHTML='<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+        document.getElementById(iangries[i]-200).innerHTML='<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
         iangries[i]=iangries[i]-200;
       }
     }
@@ -4017,13 +4067,13 @@ setTimeout(() =>{
               igreen='no';
               for (let a = 0; a < greens.length; a++) {
                 if (greens[a] == possiblemoves[i][k-1]+200) {
-                  document.getElementById(possiblemoves[i][k-1]+200).innerHTML='<img src="https://photos.fife.usercontent.google.com/pw/AP1GczMUF8dhyVCWKnxDWLgMnegZr6pXR5AXr_p_GkiTDTd3OzOhL6MPylwl=w797-h598-s-no?authuser=0" height="45px" width="60px" style="position:absolute; right: -9px; top: -3px;"></img>'
+                  document.getElementById(possiblemoves[i][k-1]+200).innerHTML='<img src="https://drive.google.com/file/d/1b9nhQMXqFpuIN9-HH1rXko4Tp1J7n7xH/view?usp=sharing" height="45px" width="60px" style="position:absolute; right: -9px; top: -3px;"></img>'
                   iangries[i]=possiblemoves[i][k-1]+200; 
                   igreen='yes';
               }
             }
 if (igreen!='yes'){
-      document.getElementById(possiblemoves[i][k-1]).innerHTML='<img src="https://photos.fife.usercontent.google.com/pw/AP1GczMUF8dhyVCWKnxDWLgMnegZr6pXR5AXr_p_GkiTDTd3OzOhL6MPylwl=w797-h598-s-no?authuser=0" height="45px" width="60px" style="position:absolute; right: -9px; top: -3px;"></img>'
+      document.getElementById(possiblemoves[i][k-1]).innerHTML='<img src="https://drive.google.com/file/d/1b9nhQMXqFpuIN9-HH1rXko4Tp1J7n7xH/view?usp=sharing" height="45px" width="60px" style="position:absolute; right: -9px; top: -3px;"></img>'
       iangries[i]=possiblemoves[i][k-1]; 
 }
     }
@@ -4031,12 +4081,12 @@ if (igreen!='yes'){
       igreen='no';
       for (let a = 0; a < greens.length; a++) {
         if (greens[a] == possiblemoves[i][k-1]+200) {
-          document.getElementById(possiblemoves[i][k-1]+200).innerHTML='<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>';
+          document.getElementById(possiblemoves[i][k-1]+200).innerHTML='<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>';
           igreen='yes';
     }
   }
     if (igreen!='yes'){
-          document.getElementById(possiblemoves[i][k-1]).innerHTML='<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>';
+          document.getElementById(possiblemoves[i][k-1]).innerHTML='<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>';
           iangries[i]=possiblemoves[i][k-1]; 
     }
     } 
@@ -4044,11 +4094,11 @@ if (igreen!='yes'){
           catch(TypeError){
             if (iangries[i]>200){
               if (level==2 && i==2){
-                document.getElementById(possiblemoves[i][k-1]-200).innerHTML='<img src="https://photos.fife.usercontent.google.com/pw/AP1GczMUF8dhyVCWKnxDWLgMnegZr6pXR5AXr_p_GkiTDTd3OzOhL6MPylwl=w797-h598-s-no?authuser=0" height="45px" width="60px" style="position:absolute; right: -9px; top: -3px;"></img>'
+                document.getElementById(possiblemoves[i][k-1]-200).innerHTML='<img src="https://drive.google.com/file/d/1b9nhQMXqFpuIN9-HH1rXko4Tp1J7n7xH/view?usp=sharing" height="45px" width="60px" style="position:absolute; right: -9px; top: -3px;"></img>'
               iangries[i]=possiblemoves[i][k-1]-200; 
               }
               else{
-              document.getElementById(possiblemoves[i][k-1]-200).innerHTML='<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+              document.getElementById(possiblemoves[i][k-1]-200).innerHTML='<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
               iangries[i]=possiblemoves[i][k-1]-200;
               }
             }
@@ -4094,10 +4144,10 @@ for (let i=0; i<iangries.length; i++){
                 iangries[i]=possiblemoves[i][k];
               }
             if (level==2 && i==2){
-              document.getElementById(iangries[i]).innerHTML='<img src="https://photos.fife.usercontent.google.com/pw/AP1GczMUF8dhyVCWKnxDWLgMnegZr6pXR5AXr_p_GkiTDTd3OzOhL6MPylwl=w797-h598-s-no?authuser=0" height="45px" width="60px" style="position:absolute; right: -9px; top: -3px;"></img>'
+              document.getElementById(iangries[i]).innerHTML='<img src="https://drive.google.com/file/d/1b9nhQMXqFpuIN9-HH1rXko4Tp1J7n7xH/view?usp=sharing" height="45px" width="60px" style="position:absolute; right: -9px; top: -3px;"></img>'
             }
             else{
-              document.getElementById(iangries[i]).innerHTML='<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+              document.getElementById(iangries[i]).innerHTML='<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
             }
 
@@ -4129,11 +4179,11 @@ for (let i=0; i<iangries.length; i++){
   for (let j=0; j<greens.length; j++){
     if (iangries[i]+200==greens[j]){
       if (level==2 && i==2){
-      document.getElementById(iangries[i]+200).innerHTML='<img src="https://photos.fife.usercontent.google.com/pw/AP1GczMUF8dhyVCWKnxDWLgMnegZr6pXR5AXr_p_GkiTDTd3OzOhL6MPylwl=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position:absolute; right: -9px; top: -3px;"></img>'
+      document.getElementById(iangries[i]+200).innerHTML='<img src="https://drive.google.com/file/d/1b9nhQMXqFpuIN9-HH1rXko4Tp1J7n7xH/view?usp=sharing" height="47px" width="62px" style="position:absolute; right: -9px; top: -3px;"></img>'
      iangries[i]=iangries[i]+200;
     }
       else{
-        document.getElementById(iangries[i]+200).innerHTML='<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+        document.getElementById(iangries[i]+200).innerHTML='<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
         iangries[i]=iangries[i]+200;
       }
     }
@@ -4199,7 +4249,8 @@ clear();
               angry = angry - (spacey*9);
                for (let i = 0; i < greens.length; i++) {
                 if (greens[i] == (angry + 200)) {
-                  //document.getElementById(angry + 200).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+                  //document.getElementById(angry + 200).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing
+" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
                   angry = angry + 200;
@@ -4210,7 +4261,8 @@ clear();
                 }
               }
               if (greened != 'yes') {
-                //document.getElementById(angry).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+                //document.getElementById(angry).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing
+" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
     
@@ -4224,7 +4276,8 @@ clear();
               angry = angry + (spacey * 9);
               for (let i = 0; i < greens.length; i++) {
                 if (greens[i] == (angry + 200)) {
-                  //document.getElementById(angry + 200).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+                  //document.getElementById(angry + 200).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing
+" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
                   angry = angry + 200;
@@ -4235,7 +4288,8 @@ clear();
                 }
               }
               if (greened != 'yes') {
-                //document.getElementById(angry).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+                //document.getElementById(angry).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing
+" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
                 iangry = angry;
@@ -4251,7 +4305,8 @@ clear();
               angry = angry - (spacey * 9);
               for (let i = 0; i < greens.length; i++) {
                 if (greens[i] == (angry + 200)) {
-                  //document.getElementById(angry + 200).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+                  //document.getElementById(angry + 200).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing
+" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
                   angry = angry + 200;
@@ -4262,7 +4317,8 @@ clear();
                 }
               }
               if (greened != 'yes') {
-                //document.getElementById(angry).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+                //document.getElementById(angry).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing
+" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
                 iangry = angry;
@@ -4276,7 +4332,8 @@ clear();
               angry = angry + (spacey * 9);
               for (let i = 0; i < greens.length; i++) {
                 if (greens[i] == (angry + 200)) {
-                  //document.getElementById(angry + 200).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+                  //document.getElementById(angry + 200).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing
+" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
                   angry = angry + 200;
@@ -4287,7 +4344,8 @@ clear();
                 }
               }
               if (greened != 'yes') {
-                //document.getElementById(angry).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+                //document.getElementById(angry).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing
+" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
                 iangry = angry;
@@ -4307,7 +4365,8 @@ clear();
                 }
                 for (let i = 0; i < greens.length; i++) {
                   if (greens[i] == (angry + 200)) {
-                  //  document.getElementById(angry + 200).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+                  //  document.getElementById(angry + 200).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing
+" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
                     angry = angry + 200;
@@ -4318,7 +4377,8 @@ clear();
                   }
                 }
                 if (greened != 'yes') {
-                  //document.getElementById(angry).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+                  //document.getElementById(angry).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing
+" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
                   iangry = angry;
@@ -4332,7 +4392,8 @@ clear();
                 angry = angry + 1;
                 for (let i = 0; i < greens.length; i++) {
                   if (greens[i] == (angry + 200)) {
-                    //document.getElementById(angry + 200).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+                    //document.getElementById(angry + 200).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing
+" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
                     angry = angry + 200;
@@ -4343,7 +4404,8 @@ clear();
                   }
                 }
                 if (greened != 'yes') {
-                  //document.getElementById(angry).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+                  //document.getElementById(angry).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing
+" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
                   iangry = angry;
@@ -4359,7 +4421,8 @@ clear();
                   angry=angry-(spacex);
                 for (let i = 0; i < greens.length; i++) {
                   if (greens[i] == (angry + 200)) {
-                    //document.getElementById(angry + 200).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+                    //document.getElementById(angry + 200).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing
+" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
                     angry = angry + 200;
@@ -4370,7 +4433,8 @@ clear();
                   }
                 }
                 if (greened != 'yes') {
-                  //document.getElementById(angry).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+                  //document.getElementById(angry).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing
+" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
                   iangry = angry;
@@ -4384,7 +4448,8 @@ clear();
                 angry = angry - 1;
                 for (let i = 0; i < greens.length; i++) {
                   if (greens[i] == (angry + 200)) {
-                    //document.getElementById(angry + 200).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+                    //document.getElementById(angry + 200).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing
+" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
                     angry = angry + 200;
@@ -4395,7 +4460,8 @@ clear();
                   }
                 }
                 if (greened != 'yes') {
-                  //document.getElementById(angry).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+                  //document.getElementById(angry).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing
+" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
                   iangry = angry;
@@ -4477,7 +4543,8 @@ clear();
                     }
                     for (let i = 0; i < greens.length; i++) {
                       if (greens[i] == (angry + 200)) {
-                    //    document.getElementById(angry + 200).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+                    //    document.getElementById(angry + 200).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing
+" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
                         angry = angry + 200;
@@ -4488,7 +4555,8 @@ clear();
                       }
                     }
                     if (greened != 'yes') {
-                      //document.getElementById(angry).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+                      //document.getElementById(angry).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing
+" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
                       iangry = angry;
@@ -4557,7 +4625,8 @@ clear();
                     }
                     for (let i = 0; i < greens.length; i++) {
                       if (greens[i] == (angry + 200)) {
-                        //document.getElementById(angry + 200).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+                        //document.getElementById(angry + 200).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing
+" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
                         angry = angry + 200;
@@ -4568,7 +4637,8 @@ clear();
                       }
                     }
                     if (greened != 'yes') {
-                      //document.getElementById(angry).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+                      //document.getElementById(angry).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing
+" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
                       iangry = angry;
@@ -4637,7 +4707,8 @@ clear();
                     }
                     for (let i = 0; i < greens.length; i++) {
                       if (greens[i] == (angry + 200)) {
-                        //document.getElementById(angry + 200).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+                        //document.getElementById(angry + 200).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing
+" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
                         angry = angry + 200;
@@ -4648,7 +4719,8 @@ clear();
                       }
                     }
                     if (greened != 'yes') {
-                      //document.getElementById(angry).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+                      //document.getElementById(angry).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing
+" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
                       iangry = angry;
@@ -4721,7 +4793,8 @@ clear();
                     }
                     for (let i = 0; i < greens.length; i++) {
                       if (greens[i] == (angry + 200)) {
-                        //document.getElementById(angry + 200).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+                        //document.getElementById(angry + 200).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing
+" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
                         angry = angry + 200;
@@ -4732,7 +4805,8 @@ clear();
                       }
                     }
                     if (greened != 'yes') {
-                      //document.getElementById(angry).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+                      //document.getElementById(angry).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing
+" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
                       iangry = angry;
@@ -4801,7 +4875,8 @@ clear();
                     }
                     for (let i = 0; i < greens.length; i++) {
                       if (greens[i] == (angry + 200)) {
-                        //document.getElementById(angry + 200).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+                        //document.getElementById(angry + 200).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing
+" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
                         angry = angry + 200;
@@ -4812,7 +4887,8 @@ clear();
                       }
                     }
                     if (greened != 'yes') {
-                      //document.getElementById(angry).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+                      //document.getElementById(angry).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing
+" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
                       iangry = angry;
@@ -4879,7 +4955,8 @@ clear();
                     }
                     for (let i = 0; i < greens.length; i++) {
                       if (greens[i] == (angry + 200)) {
-                        //document.getElementById(angry + 200).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+                        //document.getElementById(angry + 200).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing
+" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
                         angry = angry + 200;
@@ -4890,7 +4967,8 @@ clear();
                       }
                     }
                     if (greened != 'yes') {
-                      //document.getElementById(angry).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+                      //document.getElementById(angry).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing
+" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
                       iangry = angry;
@@ -4959,7 +5037,8 @@ clear();
                     }
                     for (let i = 0; i < greens.length; i++) {
                       if (greens[i] == (angry + 200)) {
-                        //document.getElementById(angry + 200).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+                        //document.getElementById(angry + 200).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing
+" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
                         angry = angry + 200;
@@ -4970,7 +5049,8 @@ clear();
                       }
                     }
                     if (greened != 'yes') {
-                      //document.getElementById(angry).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+                      //document.getElementById(angry).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing
+" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
                       iangry = angry;
@@ -5043,7 +5123,8 @@ clear();
                     }
                     for (let i = 0; i < greens.length; i++) {
                       if (greens[i] == (angry + 200)) {
-                        //document.getElementById(angry + 200).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+                        //document.getElementById(angry + 200).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing
+" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
                         angry = angry + 200;
@@ -5054,7 +5135,8 @@ clear();
                       }
                     }
                     if (greened != 'yes') {
-                      //document.getElementById(angry).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+                      //document.getElementById(angry).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing
+" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
                       iangry = angry;
@@ -5133,7 +5215,8 @@ clear();
                     }
                     for (let i = 0; i < greens.length; i++) {
                       if (greens[i] == (angry + 200)) {
-                        //document.getElementById(angry + 200).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+                        //document.getElementById(angry + 200).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing
+" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
                         angry = angry + 200;
@@ -5144,7 +5227,8 @@ clear();
                       }
                     }
                     if (greened != 'yes') {
-                      //document.getElementById(angry).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+                      //document.getElementById(angry).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing
+" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
                       iangry = angry;
@@ -5211,7 +5295,8 @@ clear();
                     }
                     for (let i = 0; i < greens.length; i++) {
                       if (greens[i] == (angry + 200)) {
-                        //document.getElementById(angry + 200).innerHTML = '<img src=https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="30px" width="30px"></img>'
+                        //document.getElementById(angry + 200).innerHTML = '<img src=https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing
+" height="30px" width="30px"></img>'
                         angry = angry + 200;
                         iangry = angry;
                         greened = 'yes';
@@ -5220,7 +5305,8 @@ clear();
                       }
                     }
                     if (greened != 'yes') {
-                      //document.getElementById(angry).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+                      //document.getElementById(angry).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing
+" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
                       iangry = angry;
@@ -5289,7 +5375,8 @@ clear();
                     }
                     for (let i = 0; i < greens.length; i++) {
                       if (greens[i] == (angry + 200)) {
-                        //document.getElementById(angry + 200).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+                        //document.getElementById(angry + 200).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing
+" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
                        angry = angry + 200;
@@ -5300,7 +5387,8 @@ clear();
                       }
                     }
                     if (greened != 'yes') {
-                      //document.getElementById(angry).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+                      //document.getElementById(angry).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing
+" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
                       iangry = angry;
@@ -5373,7 +5461,8 @@ clear();
                     }
                     for (let i = 0; i < greens.length; i++) {
                       if (greens[i] == (angry + 200)) {
-                        //document.getElementById(angry + 200).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+                        //document.getElementById(angry + 200).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing
+" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
                         angry = angry + 200;
@@ -5384,7 +5473,8 @@ clear();
                       }
                     }
                     if (greened != 'yes') {
-                      //document.getElementById(angry).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+                      //document.getElementById(angry).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing
+" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
                       iangry = angry;
@@ -5461,7 +5551,8 @@ clear();
                     }
                     for (let i = 0; i < greens.length; i++) {
                       if (greens[i] == (angry + 200)) {
-                        //document.getElementById(angry + 200).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+                        //document.getElementById(angry + 200).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing
+" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
                         angry = angry + 200;
@@ -5472,7 +5563,8 @@ clear();
                       }
                     }
                     if (greened != 'yes') {
-                      //document.getElementById(angry).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+                      //document.getElementById(angry).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing
+" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
                       iangry = angry;
@@ -5539,7 +5631,8 @@ clear();
                     }
                     for (let i = 0; i < greens.length; i++) {
                       if (greens[i] == (angry + 200)) {
-                        //document.getElementById(angry + 200).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+                        //document.getElementById(angry + 200).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing
+" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
                         angry = angry + 200;
@@ -5550,7 +5643,8 @@ clear();
                       }
                     }
                     if (greened != 'yes') {
-                      //document.getElementById(angry).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+                      //document.getElementById(angry).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing
+" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
                       iangry = angry;
@@ -5619,7 +5713,8 @@ clear();
                     }
                     for (let i = 0; i < greens.length; i++) {
                       if (greens[i] == (angry + 200)) {
-                        //document.getElementById(angry + 200).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+                        //document.getElementById(angry + 200).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing
+" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
                         angry = angry + 200;
@@ -5630,7 +5725,8 @@ clear();
                       }
                     }
                     if (greened != 'yes') {
-                      //doc ument.getElementById(angry).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+                      //doc ument.getElementById(angry).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing
+" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
                       iangry = angry;
@@ -5703,7 +5799,8 @@ clear();
                     }
                     for (let i = 0; i < greens.length; i++) {
                       if (greens[i] == (angry + 200)) {
-                        //document.getElementById(angry + 200).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+                        //document.getElementById(angry + 200).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing
+" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
                         angry = angry + 200;
@@ -5714,7 +5811,8 @@ clear();
                       }
                     }
                     if (greened != 'yes') {
-                      //document.getElementById(angry).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+                      //document.getElementById(angry).innerHTML = '<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing
+" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
 
                       iangry = angry;
@@ -6305,7 +6403,7 @@ if (newid!=100){
     run='no';
     let y=-45;
     saveid=pastid;
-    document.getElementById(100).innerHTML ='<img src="https://photos.fife.usercontent.google.com/pw/AP1GczOUcJUchBFzmxru_zeF1ymufBAMMHYQEoQIcTMAesQyZyDeljwrrg0r=w30-h30-s-no?authuser=0" height="35px" width="35px" id="yellow"></img>'
+    document.getElementById(100).innerHTML ='<img src="https://drive.google.com/file/d/1o4fvjxyxjql-lV7NIrAcjsyf6eTobHCM/view?usp=sharing" height="35px" width="35px" id="yellow"></img>'
   while(y!=5){
       let z=101;
       y=y+.5;
@@ -6371,11 +6469,11 @@ if (newid!=100){
   setTimeout(() =>{
     console.log('newlevel2', iangries);
     for (let i=0; i<2; i++){
-      document.getElementById(iangries[i]).innerHTML='<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
+      document.getElementById(iangries[i]).innerHTML='<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>'
 
    }
-    document.getElementById(iangries[2]).innerHTML='<img src="https://photos.fife.usercontent.google.com/pw/AP1GczMUF8dhyVCWKnxDWLgMnegZr6pXR5AXr_p_GkiTDTd3OzOhL6MPylwl=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position:absolute; right: -9px; top: -3px;"></img>'
-      document.getElementById(5).innerHTML = '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczOUcJUchBFzmxru_zeF1ymufBAMMHYQEoQIcTMAesQyZyDeljwrrg0r=w30-h30-s-no?authuser=0" height="35px" width="35px" id="yellow" style="position:absolute; right: 2.3px; top: 2px;"></img>'
+    document.getElementById(iangries[2]).innerHTML='<img src="https://drive.google.com/file/d/1b9nhQMXqFpuIN9-HH1rXko4Tp1J7n7xH/view?usp=sharing" height="47px" width="62px" style="position:absolute; right: -9px; top: -3px;"></img>'
+      document.getElementById(5).innerHTML = '<img src="https://drive.google.com/file/d/1o4fvjxyxjql-lV7NIrAcjsyf6eTobHCM/view?usp=sharing" height="35px" width="35px" id="yellow" style="position:absolute; right: 2.3px; top: 2px;"></img>'
     AngryMove(-1);
     run='yes';
   }, 12500);
@@ -6437,16 +6535,16 @@ if (level==3){
   setTimeout(() =>{
     console.log(level, iangries);
     for (let i=0; i<4; i++){
-      document.getElementById(iangries[i]).innerHTML='<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>' 
+      document.getElementById(iangries[i]).innerHTML='<img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing" height="47px" width="62px" style="position: absolute; right: -10px; top: -3px;"></img>' 
     }
-    document.getElementById(5).innerHTML =  '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczOUcJUchBFzmxru_zeF1ymufBAMMHYQEoQIcTMAesQyZyDeljwrrg0r=w30-h30-s-no?authuser=0" height="35px" width="35px" id="yellow" style="position:absolute; right: 2.3px; top: 2px;"></img>'
+    document.getElementById(5).innerHTML =  '<img src="https://drive.google.com/file/d/1o4fvjxyxjql-lV7NIrAcjsyf6eTobHCM/view?usp=sharing" height="35px" width="35px" id="yellow" style="position:absolute; right: 2.3px; top: 2px;"></img>'
     AngryMove(-1);
     run='yes';
   }, 12500);
 }
   if (level==4){
   
-    //<img src="https://photos.fife.usercontent.google.com/pw/AP1GczPle3ycqJGWVHkgYRznu4wWjzPf_5-1IXmyLLtHUoQX-wDleKhS3tte=w797-h598-s-no?authuser=0" height="500px" width="500px"></img>
+    //<img src="https://drive.google.com/file/d/1FgDMC8-MBJikpsq9KvP-u2Vj1nUjTd6T/view?usp=sharing" height="500px" width="500px"></img>
       console.log('level4');
       YouWin();
 /*      setTimeout(() => {
@@ -6465,7 +6563,7 @@ if (level==3){
 
   else {
     if (newid!=300 && lost!='yes'){
-    document.getElementById(newid - 200).innerHTML =  '<img src="https://photos.fife.usercontent.google.com/pw/AP1GczOUcJUchBFzmxru_zeF1ymufBAMMHYQEoQIcTMAesQyZyDeljwrrg0r=w30-h30-s-no?authuser=0" height="35px" width="35px" id="yellow" style="position:absolute; right: 2.3px; top: 2px;"></img>'
+    document.getElementById(newid - 200).innerHTML =  '<img src="https://drive.google.com/file/d/1o4fvjxyxjql-lV7NIrAcjsyf6eTobHCM/view?usp=sharing" height="35px" width="35px" id="yellow" style="position:absolute; right: 2.3px; top: 2px;"></img>'
     }
     pastid = newid - 200;
       game='on';
@@ -6491,7 +6589,7 @@ function App() {
   return (
   <div className='Play'>
     <div className='Menu' id='Menu'>
-    <img src="https://photos.fife.usercontent.google.com/pw/AP1GczN5IVT6CFzXPnPWApFuSkM3XB2cosEdoN1uIyVlvKA_Nd4zBcypD-sg=w1063-h598-s-no?authuser=0" style={{position: 'absolute', zIndex: 1, height: 600, width: 1100, top: -130, left: 80}}></img>
+    <img src="https://drive.google.com/file/d/1YlPiijex9m1yqhQRAwLlhXKQkHagOY1S/view?usp=sharing" style={{position: 'absolute', zIndex: 1, height: 600, width: 1100, top: -130, left: 80}}></img>
       <button className='Start' id='Start' onClick={Game} style={{position: 'absolute', zIndex: 1, left: 477, top: 400}}>START</button>
      </div>
       <div className="App">
@@ -6534,11 +6632,11 @@ function App() {
       })()};
            {(() => {
         ledger.push(<div className='instructions' id='instructs' style={{ position: 'absolute', zIndex: 5, left: 1000, top: 60, fontSize: 18, color: 'white', fontWeight: 'bold', fontFamily: 'monospace' }}> Instructions</div>);
-        ledger.push(<div className='greenmove' id='gm' style={{ position: 'absolute', zIndex: 5, left: 1000, top: 105, fontSize: 18, color: 'white', fontFamily: 'monospace' }}> Move <img src="https://photos.fife.usercontent.google.com/pw/AP1GczOUcJUchBFzmxru_zeF1ymufBAMMHYQEoQIcTMAesQyZyDeljwrrg0r=w30-h30-s-no?authuser=0" style={{top: 4}} height="30px" width="30px" id="yellow"></img> into the Purple Zone</div>);
+        ledger.push(<div className='greenmove' id='gm' style={{ position: 'absolute', zIndex: 5, left: 1000, top: 105, fontSize: 18, color: 'white', fontFamily: 'monospace' }}> Move <img src="https://drive.google.com/file/d/1o4fvjxyxjql-lV7NIrAcjsyf6eTobHCM/view?usp=sharing" style={{top: 4}} height="30px" width="30px" id="yellow"></img> into the Purple Zone</div>);
         ledger.push(<div className='greenmovei' id='igm' style={{ position: 'absolute', zIndex: 5, left: 1050, top: 155, fontSize: 18, color: 'white', fontFamily: 'monospace' }}>* Moves up to 3 Spaces in any Single Direction</div>);
-        ledger.push(<div className="redmove" id='rm' style={{ position: 'absolute', zIndex: 5, left: 1000, top: 245, fontSize: 18, color: 'white', fontFamily: 'monospace' }}>Avoid <img src="https://photos.fife.usercontent.google.com/pw/AP1GczNsgIWqlsHw3znQtC7ejM3snplL09GrQ_upqbNpuYGjfHQqpvnHrqX1=w797-h598-s-no?authuser=0" height="36px" width="50px" style={{top: 4}}></img></div>)
+        ledger.push(<div className="redmove" id='rm' style={{ position: 'absolute', zIndex: 5, left: 1000, top: 245, fontSize: 18, color: 'white', fontFamily: 'monospace' }}>Avoid <img src="https://drive.google.com/file/d/1uoZnjyfnqayetgfuZb14Gd7EMZ9lkcnZ/view?usp=sharing" height="36px" width="50px" style={{top: 4}}></img></div>)
         ledger.push(<div className="redmovei" id='irm' style={{ position: 'absolute', zIndex: 5, left: 1050, top: 285, fontSize: 18, color: 'white', fontFamily: 'monospace' }}> * Moves Up To 2 Spaces in any Single Direction</div>)
-        ledger.push(<div className="purplemove" id='pm' style={{ position: 'absolute', zIndex: 5, left: 1000, top: 375, fontSize: 18, color: 'white', fontFamily: 'monospace' }}>Avoid <img src="https://photos.fife.usercontent.google.com/pw/AP1GczMUF8dhyVCWKnxDWLgMnegZr6pXR5AXr_p_GkiTDTd3OzOhL6MPylwl=w797-h598-s-no?authuser=0" height="36px" width="50px" style={{top: 4}}></img></div>)
+        ledger.push(<div className="purplemove" id='pm' style={{ position: 'absolute', zIndex: 5, left: 1000, top: 375, fontSize: 18, color: 'white', fontFamily: 'monospace' }}>Avoid <img src="https://drive.google.com/file/d/1b9nhQMXqFpuIN9-HH1rXko4Tp1J7n7xH/view?usp=sharing" height="36px" width="50px" style={{top: 4}}></img></div>)
         ledger.push(<div className="purplemovei" id='ipm' style={{ position: 'absolute', zIndex: 5, left: 1050, top: 415, fontSize: 18, color: 'white', fontFamily: 'monospace' }}> * Moves Up To 3 Spaces to the Right or Left</div>)  
         return ledger;
       })()};
@@ -6550,16 +6648,16 @@ function App() {
             let x = Math.random() * (w - 1 + 1) + 1;
             let y = Math.random() * (v - 1 + 1) + 1;
             let z = Math.random() * ((15 - 5) + 1) + 5;
-            stars.push(<img src="https://photos.fife.usercontent.google.com/pw/AP1GczMLI62dCMuuM3AQyjO8NqcXEA0CsBbrHM7X-eLQ-8lLeGdCa3QZSXrx=w598-h598-s-no?authuser=0" height={z} width={z} style={{ position: 'absolute', zIndex: 1, left: x, top: y }} ></img>)
+            stars.push(<img src="https://drive.google.com/file/d/1BeMWx7GuOTdvoKxGhFxfD4NQeam0Tuis/view?usp=sharing" height={z} width={z} style={{ position: 'absolute', zIndex: 1, left: x, top: y }} ></img>)
             x = Math.random() * (w - 1 + 1) + 1;
             y = Math.random() * (v - 1 + 1) + 1;
             z = Math.random() * ((15 - 5) + 1) + 5;
-            stars.push(<img src="https://photos.fife.usercontent.google.com/pw/AP1GczMLI62dCMuuM3AQyjO8NqcXEA0CsBbrHM7X-eLQ-8lLeGdCa3QZSXrx=w598-h598-s-no?authuser=0" height={z} width={z} style={{ position: 'absolute', zIndex: 1, right: x, bottom: y }} ></img>)
+            stars.push(<img src="https://drive.google.com/file/d/1BeMWx7GuOTdvoKxGhFxfD4NQeam0Tuis/view?usp=sharing" height={z} width={z} style={{ position: 'absolute', zIndex: 1, right: x, bottom: y }} ></img>)
           }
           return stars;
         })()};
         {(() => {
-          logo.push(<img src="https://photos.fife.usercontent.google.com/pw/AP1GczN5IVT6CFzXPnPWApFuSkM3XB2cosEdoN1uIyVlvKA_Nd4zBcypD-sg=w1063-h598-s-no?authuser=0" style={{ position: 'absolute', zIndex: 1, height: 190, width: 385, left: -50, top: 0}} ></img>)
+          logo.push(<img src="https://drive.google.com/file/d/1YlPiijex9m1yqhQRAwLlhXKQkHagOY1S/view?usp=sharing" style={{ position: 'absolute', zIndex: 1, height: 190, width: 385, left: -50, top: 0}} ></img>)
           return logo;
            })()};
         {(() => {
@@ -6681,10 +6779,10 @@ function App() {
             y=-40;
             z=z+1;
             if (i % 2 == 0) {
-              celebration.push(<img src="https://photos.fife.usercontent.google.com/pw/AP1GczNcybrQ9on4rW3nbXhmLrkDC9iPhw3TCKQs57tfkqx2PolbiMKDmf7t=w70-h70-s-no?authuser=0" id={z} height={40} width={35} style={{position: 'absolute', zIndex: 1, left: x, top: y}}></img>)
+              celebration.push(<img src="https://drive.google.com/file/d/1cq0h2lmu--nXFS7kqRNczKAPaZDWnZ12/view?usp=sharing" id={z} height={40} width={35} style={{position: 'absolute', zIndex: 1, left: x, top: y}}></img>)
             }
             if (i % 2 != 0) {
-              celebration.push(<img src="https://photos.fife.usercontent.google.com/pw/AP1GczOYT-ObEOVP22jK7JQ2JlCxpsy14uNCuVYtF4JHicWo5q1FHnsHgHRx=w70-h70-s-no?authuser=0" id={z} height={40} width={35} style={{position: 'absolute', zIndex: 1, left: x, top: y}}></img>)
+              celebration.push(<img src="https://drive.google.com/file/d/16_S7esUByynj7bLmkkWACo2rXpUGkm6l/view?usp=sharing" id={z} height={40} width={35} style={{position: 'absolute', zIndex: 1, left: x, top: y}}></img>)
             }
           }
           return celebration;
